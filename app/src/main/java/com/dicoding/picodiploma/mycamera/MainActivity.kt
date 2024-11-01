@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
             }
         } ?: showToast(getString(R.string.empty_image_warning))
     }
-
+//push
     private fun showLoading(isLoading: Boolean) {
         binding.progressIndicator.visibility = if (isLoading) View.VISIBLE else View.GONE
     }
